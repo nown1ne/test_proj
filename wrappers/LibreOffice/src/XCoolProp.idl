@@ -1,0 +1,10 @@
+#include <com/sun/star/uno/XInterface.idl>
+
+module org { module coolprop { module wrappers { module libreoffice { module CalcAddIn {
+
+    interface XCoolProp : com::sun::star::uno::XInterface
+    {
+        any GetPythonType( [in] any inpVal);
+    };
+
+}; }; }; }; };

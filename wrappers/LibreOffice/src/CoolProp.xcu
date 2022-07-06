@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="CalcAddIns" oor:package="org.openoffice.Office">
+  <node oor:name="AddInInfo">
+    <node oor:name="org.coolprop.wrappers.libreoffice.CalcAddIn" oor:op="replace">
+      <node oor:name="AddInFunctions">
+        <!-- BEGIN DESCRIPTION OF GetPythonType FUNCTION -->
+        <node oor:name="GetPythonType" oor:op="replace">
+          <prop oor:name="DisplayName">
+            <value xml:lang="en">GetPythonType</value>
+          </prop>
+
+          <prop oor:name="Description">
+            <value xml:lang="en">Get the Python Type name corresponding to a value</value>
+          </prop>
+
+          <node oor:name="Parameters">
+            <node oor:name="inpVal" oor:op="replace">
+              <prop oor:name="DisplayName">
+                <value xml:lang="en">inpVal</value>
+              </prop>
+              <prop oor:name="Description">
+                <value xml:lang="en">Value for which to return the python type information</value>
+              </prop>
+            </node>
+          </node>
+        </node>
+        <!-- END DESCRIPTION OF GetPythonType FUNCTION -->
+      </node>
+    </node>
+  </node>
+</oor:component-data>
